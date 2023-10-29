@@ -19,7 +19,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="/.github/apresentation.png" width="100%">
+  <img src=".github/apresentation.png" alt="Person apresentation project" width="100%">
 </p>
 
 ## Tecnologias
@@ -33,9 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O Projeto é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado online](https://github.com/immarcosilva/person-apresentation)
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
@@ -49,4 +49,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Projeto seguido de acordo com o Discover, disponibilizado pela <a href="https://app.rocketseat.com.br/discover">Rocketseat</a>.

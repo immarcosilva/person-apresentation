@@ -100,11 +100,17 @@ body * {
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+
+    animation: theme-animation-back 0.4s;
 }
 
+
 .lightTheme #switch button {
-    right: 0;
-    left: initial;
+    animation: theme-animation-in 0.4s forwards;
+}
+
+#switch button:hover {
+    outline: 6px solid var(--hight-light-color);
 }
 
 #switch span {
@@ -204,5 +210,27 @@ footer {
 
     .lightTheme {
         --bg-url: url(/assets/bg-desktop-light.jpg);
+    }
+}
+
+/*
+* Animations
+*/
+
+@keyframes theme-animation-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes theme-animation-back {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
     }
 }

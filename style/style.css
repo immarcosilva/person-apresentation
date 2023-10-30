@@ -64,12 +64,19 @@ body * {
 #profile img {
     width: 112px;
     border-radius: 50%;
+    outline: 5px solid var(--hight-light-color);
 }
 
 #profile p {
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
+    user-select: none;
+}
+
+#profile p:hover {
+    transform:scale(1.0300, 1.0300);
+    text-shadow: 0.03px 00.02px var(--text-color,);
 }
 
 /*
@@ -110,7 +117,7 @@ body * {
 }
 
 #switch button:hover {
-    outline: 6px solid var(--hight-light-color);
+    outline: 4px solid var(--hight-light-color);
 }
 
 #switch span {
@@ -160,6 +167,7 @@ body * {
 #links .link a:hover{
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
+    transform:scale(1.01000, 1.03000);
 }
 
 /*
@@ -181,12 +189,12 @@ body * {
     padding: 16px;
     border-radius: 50%;
 
-    transition: background 0.5s;
+    transition: background 0.2s;
 }
 
 #social-links a:hover{
     background: var(--hight-light-color);
-
+    transform:scale(1.20, 1.20);
 }
 
 /*
